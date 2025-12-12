@@ -1,0 +1,225 @@
+.txt-yasil{
+    color: #a1c927;
+}
+.txt-qirmizi{
+    color: #fd634d;
+}
+.txt-ag{
+    color: #fff;
+}
+.bg-ag { background-color: #fff }
+.bg-yasil{
+    background-color:#a1c927 ;
+}
+.bg-qirmizi{
+    background-color:#fd634d ;
+}
+.vh50 { height: 50vh; }
+.artpadding { padding: 50px 40px }
+.acenter { text-align: center;}
+.aright { float: right;}
+
+#fitnessfirst { background: url('img/fitnessfirst.jpg') center/cover; }
+#yourbody { background: url('img/yourbody.jpg') center/cover; }
+#lifestyle { background: url('img/lifestyle.jpg') center/cover; }
+#summeroffun { background: url('img/summeroffun.jpg') center/cover; }
+#grape { background: url('img/grape.jpg') center/cover; }
+#mango { background: url('img/mango.jpg') center/cover; }
+#sunset { background: url('img/sunset.png') center/cover; }
+span{
+    font-weight: bold
+}
+/* nav{
+    padding-right: 40px;
+} */
+menu { padding: 10px 0;}
+header{
+    background: url('img/headerbg.jpg')  55% 50%/cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.logo{
+    padding-top: 40px;
+}
+header menu{
+    padding-top: 12px;
+    line-height: 17px;
+}
+menu li a{
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Avenir Next Rounded Std";
+}
+.title { 
+    position: absolute;
+    width: 100%;
+    bottom: 140px;
+    line-height: 35px;
+    font-size: 20px;
+}
+.title h1{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+}
+.title h5{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+}
+#m-art { padding: 68px 0}
+article.col25 { padding: 34px 10px; }
+article.col25 i { font-size: 2.7em; }
+i{
+    font-size: 50px;
+    padding-bottom: 30px;
+    border-radius: 4px;
+}
+main h3{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    font-family: "Open Sans";
+}
+.sunset h2{
+    font-size: 45px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-top: 60px;
+}
+.sunset p{
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 30px;
+}
+ p{
+    font-size: 14px;
+    font-family: "Proxima Nova";
+    line-height: 20px;
+} 
+footer .container{
+    background-color: #0c1119;
+    /* height: 50vh; */
+}   
+footer h3{
+    padding: 30px 0 30px 20px;
+    font-size: 17px;
+    line-height: 12px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+footer p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8297a7;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.icons
+{
+    display: flex;
+    padding-left: 15px;
+}
+.input{
+    padding-left: 20px;
+}
+.input .name{
+    width: 200px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.input .email{
+    width: 400px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.input .button{
+    width: 250px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background-color: #a1c927;
+    
+    
+}
+@media only screen and (min-width: 768px) {
+    main .container { 
+        max-width: 1180px;
+        margin: auto
+    }
+    .logo{
+        padding-left: 53px;
+    }
+    header .container { 
+        max-width: 1180px;
+        margin: auto
+    }
+    header { text-align: initial; }
+    /* menu { 
+        float: right; 
+        
+    } */
+     nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     }
+    menu li { 
+        display: inline-block; 
+        padding: 0 1.8vw;
+    }
+    h1 { font-size: 2.5em }
+    h5 { 
+        text-align: right;
+        padding: 10px 20px;
+    }
+    .title { 
+        width: initial;
+        left: 100px;
+    }
+    .row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+    .col25 { width: 25%; }
+    .col33 { width: 33.33%; }
+    .col66 { width: 66.66%; }
+    .fleft { float: left }
+    .fright { float: right }
+    #sunset{
+        height: 100vh;
+    }
+   
+    .full{
+        width: 100%;
+    }
+    footer .f-container{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+   .input{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 80px;
+   }
+}
